@@ -1,0 +1,16 @@
+.Oxygen {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.fondo1 {
+  height: 200vh;
+  background: rgb(180, 69, 65);
+  background: linear-gradient(
+    180deg,
+    rgb(226, 72, 66) 0%,
+    rgba(199, 44, 65, 1) 15%,
+    rgba(128, 19, 54, 1) 30%,
+    rgb(87, 18, 57) 45%,
+    rgb(51, 24, 50) 100%
+  );
+}

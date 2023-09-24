@@ -1,0 +1,120 @@
+.contenedor {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Asegura una altura mínima igual a la altura de la ventana */
+  }
+ 
+  
+  .img_mitad {
+    background-position: center;
+    width: 100%;
+    height: 55%;
+    z-index: 7;
+  }
+  
+  .titulo {
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 7;
+    position: absolute;
+    top: 164px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 1);
+  }
+  .titulo2 {
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 7;
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .fila {
+    display: flex;
+    outline: none;
+    align-content: center;
+    margin-top: 45px;
+    z-index: 6;
+    font-size: 30px;
+  }
+  
+  /* Estilos para los botones */
+.fila button {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos dentro del botón */
+    align-items: center; /* Centra verticalmente los elementos dentro del botón */
+    width: 327px;
+    height: 150px;
+    margin-left: 80px;
+    margin-right: 37px;
+    border: none;
+    z-index: 6;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    text-align: center; /* Centra el texto horizontalmente */
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* Estilos para el texto dentro de los botones */
+  /* Estilos para el texto dentro de los botones */
+.fila button span {
+    color: rgb(214, 0, 0);
+   
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid white; /* Añade una línea blanca debajo del texto */
+  }
+  
+  
+  
+  /* Estilos para la capa de oscuridad */
+  .capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 53, 53, 0.178); /* Ajusta la opacidad aquí */
+    z-index: 4;
+  }
+ /* Estilos para la capa de oscuridad */
+.capa2 {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    background-color: rgba(65, 65, 65, 0.562);
+    z-index: 5;
+    left: 0; /* Asegura que la capa2 esté pegada al lado izquierdo */
+    right: 0; /* Asegura que la capa2 esté pegada al lado derecho */
+    overflow: hidden; /* Evita el desbordamiento horizontal */
+  }
+  
+  .btn1{
+    background-image: url('../img/info.png');
+    background-size: cover;
+    
+  }
+  .btn2{
+    background-image: url('../img/citas.png');
+    background-size: cover;
+    
+  }
+  .btn3 {
+    background-image: url('../img/horarios.png');
+    background-size: cover;
+    
+    text-align: center; /* Centra el texto horizontalmente */
+  
+    
+  }
+  

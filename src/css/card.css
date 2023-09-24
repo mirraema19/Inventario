@@ -1,0 +1,80 @@
+*body{
+  background-color: aqua;
+}
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+  }
+  
+  .card-body {
+    padding: 2rem 0 !important;
+  }
+  
+  .card-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .overflow {
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.8);
+  }
+  
+
+  
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cardM {
+    margin: 1rem; /* Adjust the margin value as needed */
+ 
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    margin: 0 -1rem; /* Add negative margin to counteract padding on col-md-4 */
+  }
+  
+  .col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 1rem;
+  }
+  /* Add this style for responsiveness */
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 48%; /* Reduce the width of the cards for smaller screens */
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-4 {
+    flex: 0 0 100%; /* On even smaller screens, make the cards occupy full width */
+    max-width: 100%;
+  }
+}
+
+  
+  

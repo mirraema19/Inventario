@@ -1,0 +1,141 @@
+.textField{
+    height: 32px;
+      width: 200px;
+      border: 1px solid #e5e5e5;
+      padding: 0 32px 0 16px;
+    }
+      .textField:hover {
+        cursor: pointer;
+      }
+    
+      .btnBuscar{
+        height: 34px;
+        width: 32px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .barraBusqueda{
+        justify-content: flex-end;
+        margin-top: 20px;
+
+        align-items: flex-start;
+        display: flex;
+  
+        padding: 20px;
+      }
+      .search-bar {
+        margin-bottom: 20px; /* Ajusta el margen inferior para separar la barra de búsqueda */
+      }
+      
+      .filter-accordion {
+        margin-top: 20px; /* Ajusta el margen superior para separar la tabla de materiales */
+      }
+      
+      .btnBuscar {
+        border: none; /* Elimina el borde de los botones */
+        background: none; /* Elimina el fondo de los botones */
+        outline: none; /* Elimina el contorno al hacer clic en los botones */
+        cursor: pointer;
+      }
+      
+      /* Resto de estilos CSS */
+      .btn-accordion {
+        border: none;
+      }
+      
+      .table-container {
+        margin-top: 20px;
+      }
+      .accordion-toggle{
+        border: none;
+      }
+      .delete-button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(20, 20, 20);
+        border: none;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+        cursor: pointer;
+        transition-duration: 0.3s;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .delete-svgIcon {
+        width: 15px;
+        transition-duration: 0.3s;
+      }
+      
+      .delete-svgIcon path {
+        fill: white;
+      }
+      
+      .delete-button:hover {
+        width: 90px;
+        border-radius: 50px;
+        transition-duration: 0.3s;
+        background-color: rgb(255, 69, 69);
+        align-items: center;
+      }
+      
+      .delete-button:hover .delete-svgIcon {
+        width: 20px;
+        transition-duration: 0.3s;
+        transform: translateY(60%);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+      
+      .delete-button::before {
+        display: none;
+        content: "Delete";
+        color: white;
+        transition-duration: 0.3s;
+        font-size: 2px;
+      }
+      
+      .delete-button:hover::before {
+        display: block;
+        padding-right: 10px;
+        font-size: 13px;
+        opacity: 1;
+        transform: translateY(0px);
+        transition-duration: 0.3s;
+      }
+      .cssbuttons-io-button {
+        display: flex;
+        align-items: center;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0.7em 1.4em 0.7em 1.1em;
+        color: white;
+        background: #ad5389;
+        background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+        border: none;
+        box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+        letter-spacing: 0.05em;
+        border-radius: 20em;
+      }
+      
+      .cssbuttons-io-button svg {
+        margin-right: 6px;
+      }
+      
+      .cssbuttons-io-button:hover {
+        box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+      }
+      
+      .cssbuttons-io-button:active {
+        box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+      }
